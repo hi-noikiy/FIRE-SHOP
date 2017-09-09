@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>淘宝采集-提示</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="shortcut icon" href="../favicon.ico" />
+<link rel="icon" href="../animated_favicon.gif" type="image/gif" />
+<style type="text/css">
+	body { background: #FFF; font-size:12px;line-height:20px;}
+</style>
+</head>
+<body>
+<div id="notice1"></div>
+<div id="zload"><img src="images/zoomloader.gif" /></div>
+<script type="text/javascript">
+function showmessage(message,ext) {
+	document.getElementById("notice1").innerHTML += message + "<br/>";
+	if (ext==1){
+		document.getElementById("zload").innerHTML="";
+	}
+}
+</script>
+</body>
+</html>

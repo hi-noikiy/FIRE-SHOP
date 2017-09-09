@@ -1,0 +1,8 @@
+------tpl_info------------
+tpl name����ҳĬ�Ͽ��ӻ�ģ��
+tpl url��../data/home_Templates/fire_shop_theme/backup_tpl_1/screenshot.png
+description��
+version��
+author��
+author_uri��
+------tpl_info------------

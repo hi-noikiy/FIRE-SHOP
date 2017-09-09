@@ -1,0 +1,43 @@
+2017-07-28 03:20:41 pid:24861 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-28 19:47:31 pid:29034 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-28 20:06:54 pid:30691 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-28 20:06:54 pid:30691 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] already running
+2017-07-28 20:07:04 pid:30699 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] stop 
+2017-07-28 20:07:04 pid:30699 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] is stoping ...
+2017-07-28 20:07:04 pid:29034 Workerman[im_init.php] Stopping ...
+2017-07-28 20:07:04 pid:29034 Workerman[im_init.php] has been stopped
+2017-07-28 20:07:04 pid:30699 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] stop success
+2017-07-28 20:07:09 pid:30702 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-28 20:07:16 pid:30702 Workerman[im_init.php] Stopping ...
+2017-07-28 20:07:16 pid:30702 Workerman[im_init.php] has been stopped
+2017-07-28 20:07:22 pid:30714 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-28 22:05:42 pid:3784 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-28 23:03:06 pid:6370 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-29 23:42:30 pid:8826 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 00:03:41 pid:9402 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 00:03:41 pid:9402 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] already running
+2017-07-30 00:03:46 pid:9405 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] stop 
+2017-07-30 00:03:46 pid:9405 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] is stoping ...
+2017-07-30 00:03:46 pid:8826 Workerman[im_init.php] Stopping ...
+2017-07-30 00:03:46 pid:8826 Workerman[im_init.php] has been stopped
+2017-07-30 00:03:46 pid:9405 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] stop success
+2017-07-30 00:03:48 pid:9406 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 15:23:10 pid:7497 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 15:25:27 pid:7497 Workerman[im_init.php] Stopping ...
+2017-07-30 15:25:27 pid:7497 Workerman[im_init.php] has been stopped
+2017-07-30 15:25:28 pid:7745 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 15:27:03 pid:7745 Workerman[im_init.php] Stopping ...
+2017-07-30 15:27:03 pid:7745 Workerman[im_init.php] has been stopped
+2017-07-30 15:27:08 pid:7905 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] stop 
+2017-07-30 15:27:08 pid:7905 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] not run
+2017-07-30 15:27:13 pid:7912 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] stop 
+2017-07-30 15:27:13 pid:7912 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] not run
+2017-07-30 15:27:19 pid:7918 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] stop 
+2017-07-30 15:27:19 pid:7918 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] not run
+2017-07-30 15:27:23 pid:7922 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 15:27:56 pid:7922 Workerman[im_init.php] Stopping ...
+2017-07-30 15:27:56 pid:7922 Workerman[im_init.php] has been stopped
+2017-07-30 22:39:32 pid:28712 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 23:12:25 pid:29468 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode
+2017-07-30 23:12:25 pid:29468 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] already running
+2017-07-31 01:05:33 pid:30533 Workerman[/var/www/html/taobao/dscmall/kefu/im_init.php] start in DEBUG mode

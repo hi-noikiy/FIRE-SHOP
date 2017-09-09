@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+<head>
+	<title>淘宝采集</title>
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<link rel="icon" href="../animated_favicon.gif" type="image/gif" />
+	<link href="../includes/taobao/main.css" rel="stylesheet" type="text/css" />
+	<link href="../includes/taobao/purebox.css" rel="stylesheet" type="text/css" />
+	<link href="../includes/taobao/perfect-scrollbar.min.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../includes/taobao/jquery.js"></script>
+	<script type="text/javascript" src="../includes/taobao/jquery.purebox.js"></script>
+	<script type="text/javascript" src="../includes/taobao/perfect-scrollbar.min.js"></script>
+	<script type="text/javascript" src="../includes/taobao/taobao.js"></script>
+</head>
+<body class="iframe_body">
+<div class="warpper shop_special">
+	<div class="title">商品 - 淘宝采集</div>
+	<div class="content">
+		<div class="tabs_info">
+			  <ul>
+				<li{if $act eq 'setting'} class="curr"{/if}><a href="collect_goods.php?act=setting">采集设置</a></li>
+				<li{if $act eq 'tool'} class="curr"{/if}><a href="collect_goods.php?act=tool">工具箱</a></li>
+				<li{if $act eq 'goods'} class="curr"{/if}><a href="collect_goods.php?act=goods">商品(ID/连接)采集</a></li>
+				<li{if $act eq 'comment'} class="curr"{/if}><a href="collect_goods.php?act=comment">评论采集</a></li>
+				<li{if $act eq 'search'} class="curr"{/if}><a href="collect_goods.php?act=search">搜索采集</a></li>
+			  </ul>
+		</div>
+		<div class="explanation" id="explanation">
+			<div class="ex_tit">
+				<i class="sc_icon"></i>
+				<h4>操作提示</h4>
+				<span id="explanationZoom" title="收起提示"></span>
+			</div>
+			<ul>
+				{if $act eq 'tool'}
+				<li>建议每格一段时间，检查一遍 清理重复项和删除项。</li>
+				<li>清理重复项和删除项，不会删除任何商品。</li>
+				<li>同步所有商品评论：将自动清理评论表，已下架和已加入回收站的商品将不会采集</li>
+				<li>同步所有商品评论：1小时内已采集过评论的商品，将不会被采集，减少服务器压力（100个商品，每个商品500个评论=服务器需要请求淘宝12万次）；</li>
+				{else}
+				<li>标识“*”的选项为必填项，其余为选填项。</li>
+				{/if}
+				{if $act eq 'setting'}
+				<li>淘宝客Appkey和AppSecret如果填写错误，将导致部分功能无法使用。</li>
+				<li>淘宝客Appkey和AppSecret如果不填，默认使用系统DM299官方云端APPKEY信息。</li>
+				<li>采集评论时采集评论图片：原生ecshop无此功能，请不要开启此功能。小京东系统请先确认你的系统是否有晒单功能，大商创系统可直接使用</li>
+				{elseif $act eq 'comment'}
+				<li>评论已采集过的链接默认会自动记忆!</li>
+				<li>同一个商品以及同一个链接已采集过的评论将不在采集！</li>
+				<li>采集评论数量等于0时，讲采集淘宝商品中的所有评论！</li>
+				{elseif $act eq 'search'}
+				<li>已采集过的商品系统将不在采集！</li>
+				{/if}
+			</ul>
+		</div>
+		<div class="flexilist">
+			<div class="common-content">
+				<div class="mian-info">
+				{if $act eq 'setting'}
+				<form method="post" name="theForm" action="collect_goods.php?act=setting_do">
+				<div class="switch_info" id="conent_area">
+					<div class="items">
+
+							<div class="item">
+								<div class="label"><em class="require-field">*</em>授权码：</div>
+								<div class="label_value">
+									<input type="text" name="authcode" value="{$config.authcode}" class="text w300" />
+									<a href="javascript:void(0);" class="btn btn30 blue_btn" id="CHK_DM299_VERSION">检查新版本</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="label">默认上下架：</div>
+								<div class="label_value">
+									<div class="checkbox_items">
+										<div class="checkbox_item">
+											<input type="radio" name="not_sale" class="ui-radio" value="0" id="not_sale0" {if $config.not_sale eq 0} checked="true"{/if} />
+											<label class="ui-radio-label" for="not_sale0">下架</label>
+										</div>
+										<div class="checkbox_item">
+											<input type="radio" name="not_sale" class="ui-radio" value="1" id="not_sale1" {if $config.not_sale eq 1} checked="true"{/if} />
+											<label class="ui-radio-label" for="not_sale1">上架</label>
+										</div>
+									</div> 	
+
+								</div>
+							</div>
+							<div class="item">
+								<div class="label">采集评论时伪造订单：</div>
+								<div class="label_value">
+									<div class="checkbox_items">
+										<div class="checkbox_item">
+											<input type="radio" name="addorder" class="ui-radio" value="0" id="order0" {if $config.addorder eq 0} checked="true"{/if}/>
+											<label class="ui-radio-label" for="order0">否</label>
+										</div>
+										<div class="checkbox_item">
+											<input type="radio" name="addorder" class="ui-radio" value="1" id="order1" {if $config.addorder eq 1} checked="true"{/if} />
+											<label class="ui-radio-label" for="order1">是</label>
+										</div>
+										<div class="notic">不建议开启，伪造订单对前端无实际意义</div>
+									</div> 	
+								</div>
+							</div>
+							<div class="item">
+								<div class="label">采集评论时采集评论图片：</div>
+								<div class="label_value">
+									<div class="checkbox_items">
+										<div class="checkbox_item">
+											<input type="radio" name="comment_img" class="ui-radio" value="0" id="comment_img0" {if $config.comment_img eq 0} checked="true"{/if}/>
+											<label class="ui-radio-label" for="comment_img0">否</label>
+										</div>
+										<div class="checkbox_item">
+											<input type="radio" name="comment_img" class="ui-radio" value="1" id="comment_img1" {if $config.comment_img eq 1} checked="true"{/if} />
+											<label class="ui-radio-label" for="comment_img1">是</label>
+										</div>
+										<div class="notic">注意操作提示（无此功能请不要开启）</div>
+									</div> 	
+								</div>
+							</div>
+							<div class="item">
+								<div class="label">上下架检查：</div>
+								<div class="label_value">
+									<div class="checkbox_items">
+										<div class="checkbox_item">
+											<input type="radio" name="unsale" class="ui-radio" value="0" id="unsale0" {if $config.unsale eq 0} checked="true"{/if}/>
+											<label class="ui-radio-label" for="unsale0">不处理</label>
+										</div>
+										<div class="checkbox_item">
+											<input type="radio" name="unsale" class="ui-radio" value="1" id="unsale1" {if $config.unsale eq 1} checked="true"{/if} />
+											<label class="ui-radio-label" for="unsale1">下架商品</label>
+										</div>
+										<div class="notic">检查时，淘宝下架商品，本站是否也自动放入回收站</div>
+									</div> 	
+
+								</div>
+							</div>
+							<div class="item">
+								<div class="label">淘宝客Appkey(get)：</div>
+								<div class="label_value">
+									<input type="text" name="appkey" value="{$config.appkey}" class="text w300" />
+									<div class="form_prompt"></div>
+									<div class="notic"><a href="http://media.alimama.com/" target="_blank">申请App key(taobao.tae.items.get)</a></div>
+									
+								</div>
+							</div>
+							<div class="item">
+								<div class="label">淘宝客AppSecret(get)：</div>
+								<div class="label_value">
+									<input type="text" name="appsecret" value="{$config.appsecret}" class="text w300" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="label">评论关键词过滤：</div>
+								<div class="label_value">
+									<textarea class="textarea valid" name="comment">{$config.comment}</textarea>
+									<div class="form_prompt"></div>
+									<div class="notic">多个词请用“,”隔开（如：不好看,垃圾）</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="label">&nbsp;</div>
+								<div class="label_value info_btn"><input type="submit" value="{$lang.button_submit}" class="button" /></div>
+							</div>
+					</div>
+				</div>
+				</form>
+				{elseif $act eq 'tool'}
+				<form method="post" name="theForm" action="collect_goods.php?act=setting_do">
+				<div class="switch_info" id="conent_area">
+					<div class="items">
+						<div class="item">
+							<div class="label">&nbsp;</div>
+							<div class="label_value info_btn">
+								<a href="javascript:void(0);" class="btn btn35 red_btn" id="chk_collect_goods">清理重复项和删除项</a>
+								<a href="collect_goods.php?act=synchro_comment" class="btn btn35 blue_btn">同步所有商品评论</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</form>
+				{elseif $act eq 'goods'}
+				<form method="post" name="theForm" action="collect_goods.php?act=goodsdo">
+                    	<div class="switch_info" id="conent_area">
+                        	<div class="items">
+								<div class="item">
+									<div class="label">商品分类：</div>
+									<div class="label_value">
+										<div class="categorySelect">
+											<div class="selection">
+												<input type="text" name="category_name" id="category_name" class="text w300 valid" value="请选择分类" autocomplete="off" readonly data-filter="cat_name" />
+												<input type="hidden" name="category_id" id="category_id" value="0" data-filter="cat_id" />
+											</div>
+											<div class="select-container" style="display:none;width:329px;">
+												{$cat_list}
+											</div>
+										</div>
+									</div>
+								</div>
+                                <div class="item">
+                                	<div class="label"><em class="require-field">*</em>淘宝/天猫商品URL：</div>
+                                    <div class="label_value">
+										<textarea class="textarea valid w600" name="id"></textarea>
+										<div class="notic">任意淘宝天猫店铺的商品完整链接，直接复制过来即可,也可以是商品的ID；支持批量采集（一行一个）</div>
+									</div>
+                                </div>
+                                <div class="item">
+                                	<div class="label"><em class="require-field">*</em>商品价格：</div>
+                                    <div class="label_value">
+										<input type="text" name="price" value="N+20" class="text w150" />
+										<div class="notic">N 为淘宝价格，可以直接使用固定价格，也可以使用 加（+）减（-）乘（*）除（/）</div>
+									</div>
+                                </div>
+                                <div class="item">
+                                	<div class="label"><em class="require-field">*</em>商品库存：</div>
+                                    <div class="label_value">
+										<input type="text" name="goods_number" value="0" class="text w150" />
+										<div class="notic">如果设置为 0 将使用淘宝库存</div>
+									</div>
+                                </div>
+								<div class="item">
+									<div class="label">商品品牌：</div>
+									<div class="label_value">
+										<div class="date-item">
+											<div class="imitate_select select_w260">
+												<div class="cite">请选择分类</div>
+												<ul style="display: none;" class="ps-container ps-active-y">
+												{$brand}
+												</ul>
+												<input name="brand_id" value="" type="hidden" />
+											</div>
+										</div>
+									</div>
+								</div>
+                                <div class="item">
+                                	<div class="label">保存到相册中的图片数量：</div>
+                                    <div class="label_value"><input type="text " name="num" value="5" class="text w150" />
+									<div class="notic">图片会下载到服务器本地，部分商品图片可能很多导致执行超时 建议控制一下数量</div></div>
+                                </div>
+
+                                <div class="item">
+                                	<div class="label">是否保存详情图片到本地：</div>
+                                    <div class="label_value">
+                                    	<div class="checkbox_items">
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="pic_save" class="ui-radio" value="" id="mail_type0"  />
+                                                <label class="ui-radio-label" for="mail_type0">否</label>
+                                            </div>
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="pic_save" class="ui-radio" value="1" id="mail_type1" checked="true" />
+                                                <label class="ui-radio-label" for="mail_type1">是</label>
+                                            </div>
+                                        </div> 	
+
+                                    </div>
+                                </div>
+                                <div class="item">
+                                	<div class="label">商品属性加入到描述：</div>
+                                    <div class="label_value">
+                                    	<div class="checkbox_items">
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="goods_type" class="ui-radio" value="0" id="goods_type0"  />
+                                                <label class="ui-radio-label" for="goods_type0">否</label>
+                                            </div>
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="goods_type" class="ui-radio" value="1" id="goods_type1" checked="true" />
+                                                <label class="ui-radio-label" for="goods_type1">是</label>
+                                            </div>
+                                        </div> 	
+
+                                    </div>
+                                </div>
+								<div class="item">
+									<div class="label">商品属性分类：</div>
+									<div class="label_value">
+										<div class="selection">
+											<div class="imitate_select select_w260">
+												<div class="cite">请选择属性分类</div>
+												<ul style="display: none;" class="ps-container ps-active-y">
+													{$goods_type_list}
+												</ul>
+												<input name="cat_id" value="{$goods_type_list_selected}" type="hidden" />
+											</div>
+										</div>
+									</div>
+								</div>
+                               <div class="item">
+                                	<div class="label">抓取评价数：</div>
+                                    <div class="label_value">
+										<input type="text" name="cnum" value="5" class="text w150" />
+									</div>
+                                </div>
+								<div class="item">
+                                	<div class="label">&nbsp;</div>
+                                    <div class="label_value info_btn"><input type="submit" value="{$lang.button_submit}" class="button" /></div>
+                                </div>
+                            </div>
+                        </div>
+				</form>
+				{elseif $act eq 'comment'}
+				<form method="post" name="theForm" action="collect_goods.php?act=get_comment">
+                    	<div class="switch_info" id="conent_area">
+							<div class="goods_search_div bor_bt_das">
+								<div class="form_prompt" style="width:18%">&nbsp;</div>
+								<div class="search_select">
+									<div class="categorySelect">
+										<div class="selection">
+											<input type="text" name="category_name" id="category_name" class="text w250 valid" value="请选择分类" autocomplete="off" readonly data-filter="cat_name" />
+											<input type="hidden" name="category_id" id="category_id" value="0" data-filter="cat_id" />
+										</div>
+										<div class="select-container" style="display:none;">
+											{$cat_list}
+										</div>
+									</div>
+								</div>
+								<div class="search_select">
+									<div class="selection">
+										<div class="imitate_select select_w260">
+											<div class="cite">请选择品牌</div>
+											<ul style="display: none;" class="ps-container ps-active-y">
+												{$brand}
+											</ul>
+											<input name="brand_id" value="" type="hidden" />
+										</div>
+									</div>
+								</div>
+								<input type="text" name="keywords" class="text w150" placeholder="请输入关键字" data-filter="keywords" autocomplete="off" />
+								<a href="javascript:void(0);" class="btn btn30" onclick="searchGoods()"><i class="icon icon-search"></i>搜索</a>
+							</div>
+							<div class="items">
+								<div class="item">
+									<div class="label"><em class="require-field">*</em>选择商品：</div>
+									<div class="label_value">
+										<div id="goods_id" class="imitate_select select_w320">
+											<div class="cite">请选择</div>
+											<ul>
+												<li class="li_not">请先搜索商品</li>
+											</ul>
+											<input name="goods_id" type="hidden" value="" id="goods_id_val">
+										</div>
+									</div>
+								</div>
+                                <div class="item">
+                                	<div class="label"><em class="require-field">*</em>淘宝/天猫商品URL：</div>
+                                    <div class="label_value">
+										<input type="text" name="id" value="" class="text w450" id="taobao_id_url"/>
+										<a href="javascript:visit_taobao('taobao_id_url');" class="btn btn30 blue_btn">访问淘宝</a>
+										<div class="notic">任意淘宝天猫店铺的商品完整链接，直接复制过来即可,也可以是商品的ID；</div>
+									</div>
+                                </div>
+                               <div class="item">
+                                	<div class="label">抓取评价数：</div>
+                                    <div class="label_value">
+										<input type="text" name="cnum" value="5" class="text w150" />
+										<div class="notic">已有 <a href="javascript:;" style="color:red" id="comment_id_num">0</a> 条评论</div>
+									</div>
+                                </div>
+								<div class="item">
+                                	<div class="label">&nbsp;</div>
+                                    <div class="label_value info_btn"><input type="submit" value="{$lang.button_submit}" class="button" /></div>
+                                </div>
+                            </div>
+                        </div>
+				</form>
+				{elseif $act eq 'search'}
+				<form method="post" name="theForm" action="collect_goods.php?act=goodsdo">
+                    	<div class="switch_info" id="conent_area" style="padding-bottom:0px;">
+                        	<div class="items">
+                                <div class="item">
+                                	<div class="label"><em class="require-field">*</em>搜索关键词：</div>
+                                    <div class="label_value">
+										<input type="text" name="q" value="" class="text w400" />
+									</div>
+                                </div>
+                                <div class="item">
+                                	<div class="label">数据排序：</div>
+                                    <div class="label_value">
+										<div class="date-item">
+                                            <div class="imitate_select select_w170">
+												<div class="cite">综合排序</div>
+												<ul style="display: none;" class="ps-container ps-active-y">
+													<li><a href="javascript:;" data-value="">综合排序</a></li>
+													<li><a href="javascript:;" data-value="price_desc">价格从高到低 </a></li>
+													<li><a href="javascript:;" data-value="price_asc">价格从低到高 </a></li>
+													<li><a href="javascript:;" data-value="credit_desc">信用等级从高到低 </a></li>
+													<li><a href="javascript:;" data-value="commissionRate_desc">佣金比率从高到低 </a></li>
+													<li><a href="javascript:;" data-value="commissionRate_asc">佣金比率从低到高 </a></li>
+													<li><a href="javascript:;" data-value="commissionNum_desc">成交量成高到低 </a></li>
+													<li><a href="javascript:;" data-value="commissionNum_asc">成交量从低到高 </a></li>
+													<li><a href="javascript:;" data-value="commissionVolume_desc">总支出佣金从高到低 </a></li>
+													<li><a href="javascript:;" data-value="commissionVolume_asc">总支出佣金从低到高 </a></li>
+													<li><a href="javascript:;" data-value="delistTime_desc">商品下架时间从高到低 </a></li>
+													<li><a href="javascript:;" data-value="delistTime_asc">商品下架时间 </a></li>
+												</ul>
+												<input name="sort" value="" type="hidden" />
+                                            </div>
+                                        </div>
+									</div>
+                                </div>
+			
+								<div class="item">
+									<div class="label">卖家信用：</div>
+									<div class="label_value">
+										<div class="date-item">
+                                            <div class="imitate_select select_w170">
+												<div class="cite">不限</div>
+												<ul style="display: none;" class="ps-container ps-active-y">
+													  <li><a href="javascript:;" data-value="">不限 </a></li>
+													  <li><a href="javascript:;" data-value="1heart">一心 </a></li>
+													  <li><a href="javascript:;" data-value="2heart">两心 </a></li>
+													  <li><a href="javascript:;" data-value="3heart">三心 </a></li>
+													  <li><a href="javascript:;" data-value="4heart">四心 </a></li>
+													  <li><a href="javascript:;" data-value="5heart">五心 </a></li>
+													  <li><a href="javascript:;" data-value="1diamond">一钻 </a></li>
+													  <li><a href="javascript:;" data-value="2diamond">两钻 </a></li>
+													  <li><a href="javascript:;" data-value="3diamond">三钻 </a></li>
+													  <li><a href="javascript:;" data-value="4diamond">四钻 </a></li>
+													  <li><a href="javascript:;" data-value="5diamond">五钻 </a></li>
+													  <li><a href="javascript:;" data-value="1crown">一冠 </a></li>
+													  <li><a href="javascript:;" data-value="2crown">两冠 </a></li>
+													  <li><a href="javascript:;" data-value="3crown">三冠 </a></li>
+													  <li><a href="javascript:;" data-value="4crown">四冠 </a></li>
+													  <li><a href="javascript:;" data-value="5crown">五冠 </a></li>
+													  <li><a href="javascript:;" data-value="1goldencrown">一皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="2goldencrown">二皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="3goldencrown">三皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="4goldencrown">四皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="5goldencrown">五皇冠 </a></li>
+												</ul>
+												<input name="start_credit" value="" type="hidden">
+                                            </div>
+											<div class="form_prompt"> -&nbsp;&nbsp;</div>
+                                            <div class="imitate_select select_w170">
+												<div class="cite">不限</div>
+												<ul style="display: none;" class="ps-container ps-active-y">
+													  <li><a href="javascript:;" data-value="">不限</a></li>
+													  <li><a href="javascript:;" data-value="1heart">一心 </a></li>
+													  <li><a href="javascript:;" data-value="2heart">两心 </a></li>
+													  <li><a href="javascript:;" data-value="3heart">三心 </a></li>
+													  <li><a href="javascript:;" data-value="4heart">四心 </a></li>
+													  <li><a href="javascript:;" data-value="5heart">五心 </a></li>
+													  <li><a href="javascript:;" data-value="1diamond">一钻 </a></li>
+													  <li><a href="javascript:;" data-value="2diamond">两钻 </a></li>
+													  <li><a href="javascript:;" data-value="3diamond">三钻 </a></li>
+													  <li><a href="javascript:;" data-value="4diamond">四钻 </a></li>
+													  <li><a href="javascript:;" data-value="5diamond">五钻 </a></li>
+													  <li><a href="javascript:;" data-value="1crown">一冠 </a></li>
+													  <li><a href="javascript:;" data-value="2crown">两冠 </a></li>
+													  <li><a href="javascript:;" data-value="3crown">三冠 </a></li>
+													  <li><a href="javascript:;" data-value="4crown">四冠 </a></li>
+													  <li><a href="javascript:;" data-value="5crown">五冠 </a></li>
+													  <li><a href="javascript:;" data-value="1goldencrown">一皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="2goldencrown">二皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="3goldencrown">三皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="4goldencrown">四皇冠 </a></li>
+													  <li><a href="javascript:;" data-value="5goldencrown">五皇冠 </a></li>
+												</ul>
+												<input name="end_credit" value="" type="hidden">
+                                            </div>
+                                        </div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="label">价格范围：</div>
+									<div class="label_value">
+										<input type="text" class="text w100"  value="" name="start_price" size="10">
+										<div class="form_prompt"> -&nbsp;&nbsp;</div>
+										<input type="text" value="" class="text w100" name="end_price" size="10">
+										<div class="notic">元</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="label">商品总成交量：</div>
+									<div class="label_value">
+										<input type="text" class="text w100"  value="" name="start_totalnum" size="10">
+										<div class="form_prompt"> -&nbsp;&nbsp;</div>
+										<input type="text" value="" class="text w100" name="end_totalnum" size="10">
+										<div class="notic">件</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="label"><em class="require-field">*</em>采集数量：</div>
+									<div class="label_value"><input type="text" value="5" class="text w100" name="conum" size="10"></div>
+								</div>
+                               <div class="item">
+                                	<div class="label">只采集天猫商城：</div>
+                                    <div class="label_value">
+                                    	<div class="checkbox_items">
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="mall_item" class="ui-radio" value="0" id="mall_item0"  checked="true" />
+                                                <label class="ui-radio-label" for="mall_item0">否</label>
+                                            </div>
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="mall_item" class="ui-radio" value="1" id="mall_item1"  />
+                                                <label class="ui-radio-label" for="mall_item1">是</label>
+                                            </div>
+                                        </div> 	
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<div style="height:2px;"></div>
+                    	<div class="switch_info" id="conent_area" style="padding-top:10px;>
+                        	<div class="items">
+								<div class="item item_wenzi">
+									<div class="label">商品分类：</div>
+									<div class="label_value">
+										<div class="categorySelect">
+											<div class="selection">
+												<input type="text" name="category_name" id="category_name" class="text w300 valid" value="请选择分类" autocomplete="off" readonly data-filter="cat_name" />
+												<input type="hidden" name="category_id" id="category_id" value="0" data-filter="cat_id" />
+											</div>
+											<div class="select-container" style="display:none;width:329px">
+												{$cat_list}
+											</div>
+										</div>
+									</div>
+								</div>
+                                <div class="item">
+                                	<div class="label"><em class="require-field">*</em>商品价格：</div>
+                                    <div class="label_value">
+										<input type="text" name="price" value="N+20" class="text w150" />
+										<div class="notic">N 为淘宝价格，可以直接使用固定价格，也可以使用 加（+）减（-）乘（*）除（/）</div>
+									</div>
+                                </div>
+                                <div class="item">
+                                	<div class="label"><em class="require-field">*</em>商品库存：</div>
+                                    <div class="label_value">
+										<input type="text" name="goods_number" value="0" class="text w150" />
+										<div class="notic">如果设置为 0 将使用淘宝库存</div>
+									</div>
+                                </div>
+								<div class="item">
+									<div class="label">商品品牌：</div>
+									<div class="label_value">
+										<div class="date-item">
+											<div class="imitate_select select_w260">
+												<div class="cite">请选择分类</div>
+												<ul style="display: none;" class="ps-container ps-active-y">
+												{$brand}
+												</ul>
+												<input name="brand_id" value="" type="hidden" />
+											</div>
+										</div>
+									</div>
+								</div>
+                                <div class="item">
+                                	<div class="label">保存到相册中的图片数量：</div>
+                                    <div class="label_value"><input type="text " name="num" value="5" class="text w150" />
+									<div class="notic">图片会下载到服务器本地，部分商品图片可能很多导致执行超时 建议控制一下数量</div></div>
+                                </div>
+
+                                <div class="item">
+                                	<div class="label">是否保存详情图片到本地：</div>
+                                    <div class="label_value">
+                                    	<div class="checkbox_items">
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="pic_save" class="ui-radio" value="" id="mail_type0"  />
+                                                <label class="ui-radio-label" for="mail_type0">否</label>
+                                            </div>
+                                            <div class="checkbox_item">
+                                                <input type="radio" name="pic_save" class="ui-radio" value="1" id="mail_type1" checked="true" />
+                                                <label class="ui-radio-label" for="mail_type1">是</label>
+                                            </div>
+                                        </div> 	
+
+                                    </div>
+                                </div>
+								<div class="item">
+									<div class="label">商品属性分类：</div>
+									<div class="label_value">
+										<div class="selection">
+											<div class="imitate_select select_w260">
+												<div class="cite">请选择属性分类</div>
+												<ul style="display: none;" class="ps-container ps-active-y">
+													{$goods_type_list}
+												</ul>
+												<input name="cat_id" value="{$goods_type_list_selected}" type="hidden" />
+											</div>
+										</div>
+									</div>
+								</div>
+                               <div class="item">
+                                	<div class="label">抓取评价数：</div>
+                                    <div class="label_value">
+										<input type="text" name="cnum" value="5" class="text w150" />
+									</div>
+                                </div>
+								<div class="item">
+                                	<div class="label">&nbsp;</div>
+                                    <div class="label_value info_btn"><input type="submit" value="{$lang.button_submit}" class="button" /></div>
+                                </div>
+                            </div>
+                        </div>
+				</form>
+				{/if}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>版权所有 © 2017-2020 <a href="http://www.dm299.com" target="_blank">苏州点迈软件系统有限公司</a>，并保留所有权利。</p>
+</div>
+</body>
+</html>

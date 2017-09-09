@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>淘宝采集-提示</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="shortcut icon" href="../favicon.ico" />
+<link rel="icon" href="../animated_favicon.gif" type="image/gif" />
+<link href="../includes/taobao/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="iframe_body">
+<div class="warpper">
+	<div class="title">商品 - 淘宝采集</div>
+	<div class="content start_content">
+		<div class="explanation" id="explanation">
+			<div class="ex_tit"><i class="sc_icon"></i><h4>操作提示</h4></div>
+			<ul><li>数据正在采集，请不要关闭本页面。</li></ul>
+		</div>
+		 
+		<div class="flexilist">
+			<div class="switch_info">
+				<div id="notice1">
+				</div>
+				<div id="zload"><img src="images/zoomloader.gif" /></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>版权所有 © 2017-2020 <a href="http://www.dm299.com" target="_blank">苏州点迈软件系统有限公司</a>，并保留所有权利。</p>
+</div>
+<script type="text/javascript">
+function showmessage(message,ext) {
+	document.getElementById("notice1").innerHTML += message + "<br/>";
+	if (ext==1){
+		document.getElementById("zload").innerHTML="";
+	}
+}
+</script>
+</body>
+</html>
