@@ -17268,7 +17268,6 @@ INSERT INTO `dsc_seller_shopinfo` VALUES ('12', '14', '周大福', '', '', '1', 
 INSERT INTO `dsc_seller_shopinfo` VALUES ('13', '15', '七匹狼', '', '', '1', '27', '343', '2921', '', '', '', '', '', '0', '', '', '', '', '../seller_imgs/seller_logo/logo_thumb/1490226941203196661.jpg', 'data/store_street/street_thumb/1490226941202175586.jpg', 'data/store_street/brand_thumb/1490226941031650427.jpg', '', '', '', '', '0', '1', '0', '0', '', '', '1', '', '0', '1', '0', '', '', '', '', '0', '', 'http://', '', '0', '', '1', '0.00', '0.00', 'store_tpl_1', '1', '', '', '1', '', '0');
 INSERT INTO `dsc_seller_shopinfo` VALUES ('14', '16', '迪卡侬', '', '', '1', '8', '119', '1042', '', '', '', '', '', '0', '', '', '', '', '../seller_imgs/seller_logo/logo_thumb/1490228242947059273.jpg', 'data/store_street/street_thumb/1490228242535175941.jpg', 'data/store_street/brand_thumb/1490228242944564851.jpg', '', '', '', '', '0', '1', '0', '0', '', '', '1', '', '0', '1', '0', '', '', '', '', '0', '', 'http://', '', '0', '', '1', '0.00', '0.00', 'store_tpl_1', '1', '', '', '1', '', '0');
 INSERT INTO `dsc_seller_shopinfo` VALUES ('15', '18', 'Swisse', '', '', '1', '27', '343', '2921', '', '', '', '', '', '0', '', '', '', '../seller_imgs/seller_logo/seller_logo18.jpg', '../seller_imgs/seller_logo/logo_thumb/1490228594918917651.jpg', 'data/store_street/street_thumb/1490228594432338850.jpg', 'data/store_street/brand_thumb/1490228594628077151.jpg', '', '', '', '', '0', '1', '0', '0', '', '', '1', '', '0', '1', '0', '', '', '', '', '0', '', 'http://', '', '0', '', '1', '0.00', '0.00', 'store_tpl_1', '1', '', '', '1', '', '0');
-INSERT INTO `dsc_seller_shopinfo` VALUES ('16', '0', '商创自营', '大商创-免费B2B2C商城系统，免费多商户商城系统，多店铺商城系统，企业级电商系统免费下载_模板堂', '大商创免费商城系统 免费B2B2C 免费多商户系统  多店铺商城系统 企业级电商系统  ecsh', '1', '2', '52', '0', '中山北路3553号伸大厦301 商创网络', '123456@qq.com', '客服一|123456\r\n客服二|123456', '大商创|123456', '', '0', '123456789', '', '', '', '', '', '', '尊敬的各位合作伙伴，感谢您对平台的关注与爱戴.一路上有你的陪伴，我们相信，明天的阳光更加灿烂..', '', '', '', '0', '1', '0', '0', '', '', '1', '', '0', '1', '9', '', '', '', '', '24596261', '宜宾起凡商城', 'http://', '欢迎来到大商创B2B2C多商户系统', '7158b07952f280e3664a63775676dd65', '', '1', '0.00', '0.00', '', '1', 'f63f9033f270a96e', '5egpdRCJy9HEHm6ZQBz3Q2YoWftsDtPj', '1', '', '0');
 
 -- ----------------------------
 -- Table structure for `dsc_seller_shopinfo_changelog`
@@ -17555,16 +17554,16 @@ INSERT INTO `dsc_shop_config` VALUES ('6', '0', 'hidden', 'hidden', '', '', 'gro
 INSERT INTO `dsc_shop_config` VALUES ('7', '0', 'goods', 'group', '', '', '', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('8', '0', 'sms', 'group', '', '', '', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('9', '0', 'wap', 'group', '', '', '', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('101', '1', 'shop_name', 'text', '', '', '大商创', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('102', '1', 'shop_title', 'text', '', '', '大商创-免费B2B2C商城系统，免费多商户商城系统，多店铺商城系统，企业级电商系统免费下载_模板堂', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('103', '1', 'shop_desc', 'text', '', '', '大商创推出的免费B2B2C商城系统，支持多店铺入驻，包含多城市多仓库等众多功能，能帮助企业及个人快速搭建多商户电商系统，并减少二次开发带来的成本', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('104', '1', 'shop_keywords', 'text', '', '', '大商创免费商城系统 免费B2B2C 免费多商户系统  多店铺商城系统 企业级电商系统  ecsh', '1', '');
+INSERT INTO `dsc_shop_config` VALUES ('101', '1', 'shop_name', 'text', '', '', 'FIRE-SHOP', '1', '');
+INSERT INTO `dsc_shop_config` VALUES ('102', '1', 'shop_title', 'text', '', '', 'FIRE-SHOP多用户商城系统', '1', '');
+INSERT INTO `dsc_shop_config` VALUES ('103', '1', 'shop_desc', 'text', '', '', 'FIRE-SHOP多用户商城系统', '1', '');
+INSERT INTO `dsc_shop_config` VALUES ('104', '1', 'shop_keywords', 'text', '', '', 'FIRE-SHOP多用户商城系统', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('105', '1', 'shop_country', 'manual', '', '', '1', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('106', '1', 'shop_province', 'manual', '', '', '2', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('107', '1', 'shop_city', 'manual', '', '', '52', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('108', '1', 'shop_address', 'text', '', '', '中山北路3553号伸大厦301 商创网络', '1', '');
+INSERT INTO `dsc_shop_config` VALUES ('108', '1', 'shop_address', 'text', '', '', '新华东路64号4楼 FIRE-SHOP', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('109', '1', 'qq', 'textarea', '', '', '客服一|123456\r\n客服二|123456', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('110', '1', 'ww', 'textarea', '', '', '大商创|123456', '1', '');
+INSERT INTO `dsc_shop_config` VALUES ('110', '1', 'ww', 'textarea', '', '', '旺旺号|123456', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('111', '1', 'skype', 'hidden', '', '', '', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('112', '1', 'ym', 'hidden', '', '', '', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('113', '1', 'msn', 'hidden', '', '', '', '1', '');
@@ -17572,7 +17571,7 @@ INSERT INTO `dsc_shop_config` VALUES ('114', '1', 'service_email', 'text', '', '
 INSERT INTO `dsc_shop_config` VALUES ('115', '1', 'service_phone', 'text', '', '', '123456789', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('116', '1', 'shop_closed', 'select', '0,1', '', '0', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('117', '1', 'close_comment', 'textarea', '', '', '', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('118', '1', 'shop_logo', 'file', '', '../themes/{$template}/images/', '../themes/ecmoban_sc3.0/images/logo.gif', '1', '');
+INSERT INTO `dsc_shop_config` VALUES ('118', '1', 'shop_logo', 'file', '', '../themes/{$template}/images/', '../themes/fire_shop_theme/images/logo.gif', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('119', '1', 'licensed', 'hidden', '0,1', '', '1', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('120', '1', 'user_notice', 'textarea', '', '', '用户中心公告！', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('121', '1', 'shop_notice', 'textarea', '', '', '尊敬的各位合作伙伴，感谢您对平台的关注与爱戴.一路上有你的陪伴，我们相信，明天的阳光更加灿烂..', '1', '');
@@ -17643,7 +17642,7 @@ INSERT INTO `dsc_shop_config` VALUES ('326', '3', 'name_of_region_1', 'text', ''
 INSERT INTO `dsc_shop_config` VALUES ('327', '3', 'name_of_region_2', 'text', '', '', '省', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('328', '3', 'name_of_region_3', 'text', '', '', '市', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('329', '3', 'name_of_region_4', 'text', '', '', '区', '1', '');
-INSERT INTO `dsc_shop_config` VALUES ('330', '3', 'search_keywords', 'text', '', '', '周大福,内衣,Five Plus,手机', '0', '');
+INSERT INTO `dsc_shop_config` VALUES ('330', '3', 'search_keywords', 'text', '', '', '钻石,项链,戒指,耳钉', '0', '');
 INSERT INTO `dsc_shop_config` VALUES ('332', '997', 'related_goods_number', 'text', '', '', '5', '1', 'goods');
 INSERT INTO `dsc_shop_config` VALUES ('333', '3', 'help_open', 'select', '0,1', '', '1', '1', '');
 INSERT INTO `dsc_shop_config` VALUES ('334', '3', 'article_page_size', 'text', '', '', '2', '1', '');

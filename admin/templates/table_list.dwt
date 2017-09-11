@@ -74,7 +74,7 @@
             
             if(result.is_stop == 0){
 				$("#title_name").addClass("red");
-                $("#title_name").html("已完成便前缀修改，请关闭该窗口！");
+                $("#title_name").html("已完成表前缀修改，请关闭该窗口！");
             }else{
 				$("#title_name").html("正在修改表前缀中，请勿关闭该窗口！");
 			}

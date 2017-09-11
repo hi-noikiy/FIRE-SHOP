@@ -5,11 +5,11 @@ namespace DeepCopy;
 use DeepCopy\Exception\CloneException;
 use DeepCopy\Filter\Filter;
 use DeepCopy\Matcher\Matcher;
+use DeepCopy\Reflection\ReflectionHelper;
 use DeepCopy\TypeFilter\Spl\SplDoublyLinkedList;
 use DeepCopy\TypeFilter\TypeFilter;
 use DeepCopy\TypeMatcher\TypeMatcher;
 use ReflectionProperty;
-use DeepCopy\Reflection\ReflectionHelper;
 
 /**
  * DeepCopy

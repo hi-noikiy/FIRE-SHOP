@@ -21,7 +21,7 @@ $db_pass   = "abc53528746";
 
 
 // table prefix
-$prefix    = "dsc_";
+$prefix = "fire_";
 
 
 

@@ -74,7 +74,7 @@ shipping_type[2]:0
 postscript[]:
 
 ru_id[]:0
-ru_name[]:商创自营
+ru_name[]:FIRE-SHOP自营
 shipping[]:16
 shipping_dateStr[0]:
 shipping_type[0]:0
