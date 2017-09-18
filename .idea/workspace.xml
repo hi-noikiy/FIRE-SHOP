@@ -1,190 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd33a82d-37d4-4e65-955e-6bd521ead3b0" name="默认的" comment="清除部分测试数据">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/activity_thumb/1490569650296954054.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/activity_thumb/1490639873070005165.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/activity_thumb/1490640261021581090.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/activity_thumb/1490640353801296582.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490039286075654490.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490044781505183303.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073109529817869.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073123533047769.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073240845049320.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073253749057076.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073359611343586.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073454678614186.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073518703639070.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073529881448780.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073539440462760.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073561018734078.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073577683159021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073591535005714.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073603108687350.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073616154966189.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073648356663196.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073661335207841.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073675778205608.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073692774466710.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073705755280994.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073717776504773.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073919711003101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073930435480283.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073943918274561.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073960166035363.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073982547710498.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490073993393817822.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490074006660107941.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490074021871491604.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490074030328949587.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490074180745676140.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490074308773778697.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490074447209712752.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490074901892372216.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490075080126940602.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490075108722576375.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490075378902486254.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490075385239594909.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490171606054909832.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490171966221080254.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490171981556005380.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490227517695746097.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490227603513332911.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490227784119952387.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490227986732712711.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490228075580091113.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490228100138579787.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490228262050567438.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/brandlogo/1490228332533535072.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/8/goods_F8074453.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/f/index_40F756F0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/admin_main_left.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/attribute_table.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/clear_cache.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/consumption_list.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/db_backup.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/filter_brand.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/gallery_img.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/get_select_category.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_attr_gallery.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_attribute.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_info.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_list.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/goods_search.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/index.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/login.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/move_left.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/pageheader.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/scan_code.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/shop_config.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/start.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/user_price_list.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/admin/volume_price_list.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/bonushome_ad.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/cart_info.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/cat_goods.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/cat_goods_ad_left.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/cat_goods_ad_right.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/cat_goods_banner.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/cat_goods_hot.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/category_tree_nav.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/comments.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/comments_discuss_list1.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/comments_list.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/common_html.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/duibi.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/expert_field.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_article.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_comment_title.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_delivery_area.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_delivery_area_js.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_discuss_title.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_fittings.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_fittings_cnt.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_gallery.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_merchants.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_related.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/goods_warehouse.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/guess_goods_love.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/guess_you_like.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/header_region_style.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/history_goods.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_ad.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_ad_cat.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_ad_position.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_brand_ad.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_brand_banner.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_brand_street.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_suspend_info.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/index_user_info.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/js_languages_new.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/load_cat_goods.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/member_info.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/page_footer.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/page_header_common.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/position_get_adv.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/position_get_adv_small.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/recommend_best_goods.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/recommend_hot_goods.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/recommend_merchants.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/recommend_new_goods.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/seckill_goods_list.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/ur_here.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/user_area_shipping.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/compiled/user_menu_position.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/query_caches/sqlcache_config_file_7978acf05f9da58f76c2a8e6cb237aa2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/query_caches/sqlcache_config_file_a4e4e00d7c7764a6b6f3b07cfdad52cc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/art_cat_pid_releate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/index_goods_cat0_0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/index_goods_cat1_0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/index_goods_cat2_0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/index_goods_cat3_0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/index_goods_cat_cache.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FIRE-SHOP.iml" afterPath="$PROJECT_DIR$/.idea/FIRE-SHOP.iml" />
+    <list default="true" id="dd33a82d-37d4-4e65-955e-6bd521ead3b0" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gallery_album/original_img/58c11d8c63e09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gallery_album/original_img/58c11d8c63e091.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gallery_album/original_img/58c11db4d6adc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gallery_album/original_img/58c127c1ce225.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gallery_album/original_img/58da1783b3a11.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/images/admin-logo.png" afterPath="$PROJECT_DIR$/admin/images/admin-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/fire_shop_theme/images/logo.gif" afterPath="$PROJECT_DIR$/themes/fire_shop_theme/images/logo.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates/table_list.dwt" afterPath="$PROJECT_DIR$/admin/templates/table_list.dwt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/config.php" afterPath="$PROJECT_DIR$/data/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sc_file/pin_regions.php" afterPath="$PROJECT_DIR$/data/sc_file/pin_regions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fire_shop.sql" afterPath="$PROJECT_DIR$/fire_shop.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app/api/Docs/Wx/flow.index.md" afterPath="$PROJECT_DIR$/mobile/app/api/Docs/Wx/flow.index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/.gitattributes" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/.gitignore" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/.travis.yml" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/LICENSE" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/README.md" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/composer.json" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/DeepCopy.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/DeepCopy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineCollectionFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineCollectionFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineEmptyCollectionFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineEmptyCollectionFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineProxyFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineProxyFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Filter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/KeepFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/KeepFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/ReplaceFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/ReplaceFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/SetNullFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Filter/SetNullFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/Doctrine/DoctrineProxyMatcher.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/Doctrine/DoctrineProxyMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/Matcher.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/Matcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyMatcher.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyNameMatcher.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyNameMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyTypeMatcher.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyTypeMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Reflection/ReflectionHelper.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/Reflection/ReflectionHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ShallowCopyFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ShallowCopyFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedList.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php" afterPath="$PROJECT_DIR$/mobile/vendor/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/admin_html_head.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/admin_html_head.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/dialog.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/dialog.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/filter_category.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/filter_category.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/message.dwt.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/message.dwt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/page.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/page.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/pagefooter.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/pagefooter.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/search_brand_list.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/search_brand_list.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/admin/shop_config_form.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/admin/shop_config_form.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/inc_menu.php" afterPath="$PROJECT_DIR$/admin/includes/inc_menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/inc_priv.php" afterPath="$PROJECT_DIR$/admin/includes/inc_priv.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/lib_main.php" afterPath="$PROJECT_DIR$/admin/includes/lib_main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/zh_cn/admin/common.php" afterPath="$PROJECT_DIR$/languages/zh_cn/admin/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/zh_cn/admin/common_merchants.php" afterPath="$PROJECT_DIR$/languages/zh_cn/admin/common_merchants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/zh_cn/admin/merchants_users_list.php" afterPath="$PROJECT_DIR$/languages/zh_cn/admin/merchants_users_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/zh_cn/admin/priv_action.php" afterPath="$PROJECT_DIR$/languages/zh_cn/admin/priv_action.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app/http/wechat/views/admin.picture.html" afterPath="$PROJECT_DIR$/mobile/app/http/wechat/views/admin.picture.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app/http/wechat/views/admin.voice.html" afterPath="$PROJECT_DIR$/mobile/app/http/wechat/views/admin.voice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seller/includes/inc_menu.php" afterPath="$PROJECT_DIR$/seller/includes/inc_menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seller/includes/inc_priv.php" afterPath="$PROJECT_DIR$/seller/includes/inc_priv.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/shop_config.php" afterPath="$PROJECT_DIR$/temp/static_caches/shop_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/fire_shop_theme/wholesale_category.dwt" afterPath="$PROJECT_DIR$/themes/fire_shop_theme/wholesale_category.dwt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -194,10 +32,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>background-color: rgb(22, 184, 216); overflow: hidden;</find>
+      <find>rgb(22, 184, 216)</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/admin/includes/lib_main.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -212,6 +63,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="e8d38bc1-f351-490e-ae07-ab5757a8fac3" name="localhost" />
@@ -221,8 +73,33 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="86" />
     <option name="y" value="22" />
-    <option name="width" value="1400" />
+    <option name="width" value="1514" />
     <option name="height" value="805" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>常规</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -239,6 +116,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,17 +125,21 @@
               <item name="FIRE-SHOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="FIRE-SHOP" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="FIRE-SHOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIRE-SHOP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,8 +153,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Web Application.localhost">
+  <component name="RunManager" selected="PHP Script.lib_main.php">
+    <configuration name="lib_main.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/admin/includes/lib_main.php" />
     <configuration name="localhost" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="localhost" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.localhost" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.lib_main.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.lib_main.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -285,7 +178,8 @@
       <updated>1504969095960</updated>
       <workItem from="1504969097944" duration="878000" />
       <workItem from="1505071433858" duration="734000" />
-      <workItem from="1505126802949" duration="672000" />
+      <workItem from="1505126802949" duration="2085000" />
+      <workItem from="1505732638918" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="测试数据库文件">
       <created>1504969775397</created>
@@ -294,31 +188,40 @@
       <option name="project" value="LOCAL" />
       <updated>1504969775397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="清除部分测试数据">
+      <created>1505141816371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505141816371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2284000" />
+    <option name="totallyTimeSpent" value="4395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="22" width="1400" height="805" extended-state="0" />
+    <frame x="86" y="22" width="1514" height="805" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23117569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5184175" sideWeight="0.50285715" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.497358" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36971352" sideWeight="0.50792605" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.49142858" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5184175" sideWeight="0.49714285" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="检验" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36971352" sideWeight="0.49207398" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28103682" sideWeight="0.49714285" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -369,15 +272,231 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/includes/lib_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505143033000" expanded="true" signature="1452:1676" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('admin_log')}... " />
+            <marker date="1505143033000" expanded="true" signature="2395:2490" ph="SELECT id FR... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1505143033000" expanded="true" signature="2541:2687" ph="INSERT INTO ${$ecs-&gt;table('shop_config')}... " />
+            <marker date="1505143033000" expanded="true" signature="3561:3668" ph="SELECT type_... ${$GLOBALS['ecs']-&gt;table('bonus_type')}" />
+            <marker date="1505143033000" expanded="true" signature="3994:4124" ph="SELECT type_... ${$GLOBALS['ecs']-&gt;table('pay_card_type')}" />
+            <marker date="1505143033000" expanded="true" signature="4458:4501" ph="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1505143033000" expanded="true" signature="4915:5016" ph="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1505143033000" expanded="true" signature="9949:10069" ph="SELECT bid F... ${$GLOBALS['ecs']-&gt;table('merchants_shop_brand')}" />
+            <marker date="1505143033000" expanded="true" signature="10301:10412" ph="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1505143033000" expanded="true" signature="14098:14212" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('region')}" />
+            <marker date="1505143033000" expanded="true" signature="15567:15665" ph="select user_... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1505143033000" expanded="true" signature="16332:16428" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1505143033000" expanded="true" signature="17206:17292" ph="SELECT pay_i... ${$GLOBALS['ecs']-&gt;table('payment')}" />
+            <marker date="1505143033000" expanded="true" signature="20426:20526" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1505143033000" expanded="true" signature="21987:22208" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('merchants_category')}" />
+            <marker date="1505143033000" expanded="true" signature="22304:22479" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('category')}" />
+            <marker date="1505143033000" expanded="true" signature="22604:22707" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1505143033000" expanded="true" signature="22809:22956" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+            <marker date="1505143033000" expanded="true" signature="23286:23417" ph="SELECT suppl... ${$GLOBALS['ecs']-&gt;table('suppliers')}" />
+            <marker date="1505143033000" expanded="true" signature="24962:25066" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1505143033000" expanded="true" signature="25151:25378" ph="SELECT GROUP... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1505143033000" expanded="true" signature="25865:26028" ph="select attr_... ${$GLOBALS['ecs']-&gt;table('attribute_img')}" />
+            <marker date="1505143033000" expanded="true" signature="27175:27341" ph="select id, a... ${$GLOBALS['ecs']-&gt;table('attribute_img')}" />
+            <marker date="1505143033000" expanded="true" signature="28551:28648" ph="select goods... ${$GLOBALS['ecs']-&gt;table('link_goods_desc')}" />
+            <marker date="1505143033000" expanded="true" signature="29186:29279" ph="select goods... ${$GLOBALS['ecs']-&gt;table('link_desc_temporary')}" />
+            <marker date="1505143033000" expanded="true" signature="30662:30683" ph="select goods... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1505143033000" expanded="true" signature="30942:31047" ph="select goods... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1505143033000" expanded="true" signature="32434:32522" ph="SELECT max(v... ${$GLOBALS['ecs']-&gt;table('nav')}" />
+            <marker date="1505143033000" expanded="true" signature="32591:32885" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('nav')}... " />
+            <marker date="1505143033000" expanded="true" signature="33257:33367" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('return_cause')}" />
+            <marker date="1505143033000" expanded="true" signature="41550:41666" ph="SELECT agenc... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+            <marker date="1505143033000" expanded="true" signature="44505:44624" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('order_return')}" />
+            <marker date="1505143033000" expanded="true" signature="44688:44854" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('order_return')}" />
+            <marker date="1505143033000" expanded="true" signature="47248:47381" ph="select retur... ${$GLOBALS['ecs']-&gt;table('return_goods')}" />
+            <marker date="1505143033000" expanded="true" signature="49133:49363" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('notice_log')}... " />
+            <marker date="1505143033000" expanded="true" signature="49738:49795" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="49913:50012" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+            <marker date="1505143033000" expanded="true" signature="50073:50177" ph="SELECT ret_i... ${$GLOBALS['ecs']-&gt;table('order_return')}" />
+            <marker date="1505143033000" expanded="true" signature="50300:50400" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50435:50536" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50574:50671" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50702:50797" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50828:50918" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="51054:51152" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1505143033000" expanded="true" signature="51264:51369" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1505143033000" expanded="true" signature="51509:51609" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="57647:57718" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+            <marker date="1505143033000" expanded="true" signature="62500:62628" ph="SELECT g.use... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1505143033000" expanded="true" signature="63162:63289" ph="SELECT b.bra... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1505143033000" expanded="true" signature="65776:65958" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1505143033000" expanded="true" signature="66350:66578" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1505143033000" expanded="true" signature="70982:71115" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1505143033000" expanded="true" signature="71293:71410" ph="select regio... ${$GLOBALS['ecs']-&gt;table('region_warehouse')}" />
+            <marker date="1505143033000" expanded="true" signature="71530:71663" ph="select regio... ${$GLOBALS['ecs']-&gt;table('region_warehouse')}" />
+            <marker date="1505143033000" expanded="true" signature="72960:73049" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="74341:74442" ph="SELECT g.goo... ${$GLOBALS['ecs']-&gt;table($goods_table)}" />
+            <marker date="1505143033000" expanded="true" signature="74981:75070" ph="SELECT value... ${$GLOBALS['ecs']-&gt;table('shop_config')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/temp/compiled/admin/dialog.lbi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="707" column="55" lean-forward="false" selection-start-line="707" selection-start-column="55" selection-end-line="707" selection-end-column="55" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/lib_goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33767">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1504985070000" expanded="true" signature="473:550" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1504985070000" expanded="true" signature="671:790" ph="SELECT user_... ${$GLOBALS['ecs']-&gt;table('member_price')}" />
+            <marker date="1504985070000" expanded="true" signature="1623:1809" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1504985070000" expanded="true" signature="2245:2438" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('goods_attr')}... " />
+            <marker date="1504985070000" expanded="true" signature="2750:2890" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('member_price')}" />
+            <marker date="1504985070000" expanded="true" signature="2969:3108" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="3395:3562" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('member_price')}... " />
+            <marker date="1504985070000" expanded="true" signature="3685:3786" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods_cat')}" />
+            <marker date="1504985070000" expanded="true" signature="3918:4029" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="4200:4331" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('goods_cat')}... " />
+            <marker date="1504985070000" expanded="true" signature="8579:8875" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('goods_gallery')}... " />
+            <marker date="1504985070000" expanded="true" signature="10863:11159" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('goods_gallery')}... " />
+            <marker date="1504985070000" expanded="true" signature="11418:11525" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('goods_gallery')}" />
+            <marker date="1504985070000" expanded="true" signature="14439:14735" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('goods_gallery')}... " />
+            <marker date="1504985070000" expanded="true" signature="16723:17019" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('goods_gallery')}... " />
+            <marker date="1504985070000" expanded="true" signature="18183:18291" ph="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('presale_activity')}" />
+            <marker date="1504985070000" expanded="true" signature="18369:18470" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="18503:18592" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="18630:18696" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="18832:18898" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="19322:19456" ph="SELECT DISTI... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="20679:20746" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="20814:20884" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="21854:21929" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="21997:22072" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="22140:22215" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="22283:22355" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="22423:22494" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="22562:22636" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="22704:22778" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="22846:22919" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="22987:23059" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="23127:23204" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="23272:23337" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="23405:23495" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="23563:23629" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="23697:23775" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="23843:23920" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="23988:24064" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="24132:24214" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="24282:24363" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="24431:24505" ph="DELETE FROM " />
+            <marker date="1504985070000" expanded="true" signature="24826:25022" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="25561:25678" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="25702:25874" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="26644:26765" ph="SELECT DISTI... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1504985070000" expanded="true" signature="30381:30501" ph="SELECT bid F... ${$GLOBALS['ecs']-&gt;table('merchants_shop_brand')}" />
+            <marker date="1504985070000" expanded="true" signature="30602:30722" ph="SELECT bid F... ${$GLOBALS['ecs']-&gt;table('merchants_shop_brand')}" />
+            <marker date="1504985070000" expanded="true" signature="30823:30934" ph="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1504985070000" expanded="true" signature="37750:37893" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="39650:39884" ph="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1504985070000" expanded="true" signature="40540:40731" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1504985070000" expanded="true" signature="40950:41052" ph="SELECT model... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="41268:41417" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="41630:41751" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1504985070000" expanded="true" signature="42187:42594" ph="SELECT g.goo... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1504985070000" expanded="true" signature="43902:44006" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1504985070000" expanded="true" signature="44086:44375" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1504985070000" expanded="true" signature="47337:47573" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1504985070000" expanded="true" signature="47839:47941" ph="SELECT model... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="48380:48556" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="48598:48833" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="49379:49566" ph="SELECT g.use... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="49654:49797" ph="SELECT g.goo... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="50041:50176" ph="SELECT p.pro... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="50209:50403" ph="SELECT p.pro... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="50970:51157" ph="SELECT g.use... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="51245:51394" ph="SELECT g.goo... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1504985070000" expanded="true" signature="51638:51779" ph="SELECT p.pro... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="51812:52012" ph="SELECT p.pro... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1504985070000" expanded="true" signature="54268:54383" ph="SELECT recen... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+            <marker date="1504985070000" expanded="true" signature="60521:60733" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('seckill_goods')}" />
+            <marker date="1504985070000" expanded="true" signature="60842:61173" ph="SELECT sg.id... ${$GLOBALS['ecs']-&gt;table('seckill_goods')}" />
+            <marker date="1504985070000" expanded="true" signature="61670:61777" ph="SELECT recen... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/lib_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1505143033000" expanded="true" signature="1452:1676" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('admin_log')}... " />
+            <marker date="1505143033000" expanded="true" signature="2395:2490" ph="SELECT id FR... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1505143033000" expanded="true" signature="2541:2687" ph="INSERT INTO ${$ecs-&gt;table('shop_config')}... " />
+            <marker date="1505143033000" expanded="true" signature="3561:3668" ph="SELECT type_... ${$GLOBALS['ecs']-&gt;table('bonus_type')}" />
+            <marker date="1505143033000" expanded="true" signature="3994:4124" ph="SELECT type_... ${$GLOBALS['ecs']-&gt;table('pay_card_type')}" />
+            <marker date="1505143033000" expanded="true" signature="4458:4501" ph="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1505143033000" expanded="true" signature="4915:5016" ph="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1505143033000" expanded="true" signature="9949:10069" ph="SELECT bid F... ${$GLOBALS['ecs']-&gt;table('merchants_shop_brand')}" />
+            <marker date="1505143033000" expanded="true" signature="10301:10412" ph="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1505143033000" expanded="true" signature="14098:14212" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('region')}" />
+            <marker date="1505143033000" expanded="true" signature="15567:15665" ph="select user_... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1505143033000" expanded="true" signature="16332:16428" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1505143033000" expanded="true" signature="17206:17292" ph="SELECT pay_i... ${$GLOBALS['ecs']-&gt;table('payment')}" />
+            <marker date="1505143033000" expanded="true" signature="20426:20526" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1505143033000" expanded="true" signature="21987:22208" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('merchants_category')}" />
+            <marker date="1505143033000" expanded="true" signature="22304:22479" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('category')}" />
+            <marker date="1505143033000" expanded="true" signature="22604:22707" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1505143033000" expanded="true" signature="22809:22956" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+            <marker date="1505143033000" expanded="true" signature="23286:23417" ph="SELECT suppl... ${$GLOBALS['ecs']-&gt;table('suppliers')}" />
+            <marker date="1505143033000" expanded="true" signature="24962:25066" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1505143033000" expanded="true" signature="25151:25378" ph="SELECT GROUP... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1505143033000" expanded="true" signature="25865:26028" ph="select attr_... ${$GLOBALS['ecs']-&gt;table('attribute_img')}" />
+            <marker date="1505143033000" expanded="true" signature="27175:27341" ph="select id, a... ${$GLOBALS['ecs']-&gt;table('attribute_img')}" />
+            <marker date="1505143033000" expanded="true" signature="28551:28648" ph="select goods... ${$GLOBALS['ecs']-&gt;table('link_goods_desc')}" />
+            <marker date="1505143033000" expanded="true" signature="29186:29279" ph="select goods... ${$GLOBALS['ecs']-&gt;table('link_desc_temporary')}" />
+            <marker date="1505143033000" expanded="true" signature="30662:30683" ph="select goods... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1505143033000" expanded="true" signature="30942:31047" ph="select goods... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1505143033000" expanded="true" signature="32434:32522" ph="SELECT max(v... ${$GLOBALS['ecs']-&gt;table('nav')}" />
+            <marker date="1505143033000" expanded="true" signature="32591:32885" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('nav')}... " />
+            <marker date="1505143033000" expanded="true" signature="33257:33367" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('return_cause')}" />
+            <marker date="1505143033000" expanded="true" signature="41550:41666" ph="SELECT agenc... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+            <marker date="1505143033000" expanded="true" signature="44505:44624" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('order_return')}" />
+            <marker date="1505143033000" expanded="true" signature="44688:44854" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('order_return')}" />
+            <marker date="1505143033000" expanded="true" signature="47248:47381" ph="select retur... ${$GLOBALS['ecs']-&gt;table('return_goods')}" />
+            <marker date="1505143033000" expanded="true" signature="49133:49363" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('notice_log')}... " />
+            <marker date="1505143033000" expanded="true" signature="49738:49795" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="49913:50012" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+            <marker date="1505143033000" expanded="true" signature="50073:50177" ph="SELECT ret_i... ${$GLOBALS['ecs']-&gt;table('order_return')}" />
+            <marker date="1505143033000" expanded="true" signature="50300:50400" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50435:50536" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50574:50671" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50702:50797" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="50828:50918" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="51054:51152" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1505143033000" expanded="true" signature="51264:51369" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1505143033000" expanded="true" signature="51509:51609" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="57647:57718" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+            <marker date="1505143033000" expanded="true" signature="62500:62628" ph="SELECT g.use... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1505143033000" expanded="true" signature="63162:63289" ph="SELECT b.bra... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1505143033000" expanded="true" signature="65776:65958" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1505143033000" expanded="true" signature="66350:66578" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1505143033000" expanded="true" signature="70982:71115" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table($table)}" />
+            <marker date="1505143033000" expanded="true" signature="71293:71410" ph="select regio... ${$GLOBALS['ecs']-&gt;table('region_warehouse')}" />
+            <marker date="1505143033000" expanded="true" signature="71530:71663" ph="select regio... ${$GLOBALS['ecs']-&gt;table('region_warehouse')}" />
+            <marker date="1505143033000" expanded="true" signature="72960:73049" ph="DELETE FROM " />
+            <marker date="1505143033000" expanded="true" signature="74341:74442" ph="SELECT g.goo... ${$GLOBALS['ecs']-&gt;table($goods_table)}" />
+            <marker date="1505143033000" expanded="true" signature="74981:75070" ph="SELECT value... ${$GLOBALS['ecs']-&gt;table('shop_config')}" />
+          </folding>
         </state>
       </provider>
     </entry>

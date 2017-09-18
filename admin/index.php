@@ -1,5 +1,4 @@
 <?php
-//zend by 旺旺ecshop2012所有 禁止倒卖 一经发现停止任何服务
 function license_check()
 {
 	$return_array = array();
@@ -2201,48 +2200,7 @@ else if ($_REQUEST['act'] == 'license') {
 		make_json_error(0);
 	}
 }
-else if ($_REQUEST['act'] == 'cloud_services') {
-	admin_priv('cloud_services');
-	$http = $ecs->http();
 
-	if (strpos($http, 'https://') === false) {
-		$Loaction = 'http://www.dscmall.cn/cloud/index.html';
-	}
-	else {
-		$Loaction = 'https://www.dscmall.cn/cloud/index.html';
-	}
-
-	ecs_header('Location: ' . $Loaction . "\n");
-	exit();
-}
-else if ($_REQUEST['act'] == 'platform_recommend') {
-	admin_priv('cloud_services');
-	$http = $ecs->http();
-
-	if (strpos($http, 'https://') === false) {
-		$Loaction = 'http://dscmall.cn/cloud/platform_rec.html';
-	}
-	else {
-		$Loaction = 'https://dscmall.cn/cloud/platform_rec.html';
-	}
-
-	ecs_header('Location: ' . $Loaction . "\n");
-	exit();
-}
-else if ($_REQUEST['act'] == 'best_recommend') {
-	admin_priv('cloud_services');
-	$http = $ecs->http();
-
-	if (strpos($http, 'https://') === false) {
-		$Loaction = 'https://dscmall.cn/cloud/best_rec.html';
-	}
-	else {
-		$Loaction = 'https://dscmall.cn/cloud/best_rec.html';
-	}
-
-	ecs_header('Location: ' . $Loaction . "\n");
-	exit();
-}
 else if ($_REQUEST['act'] == 'remove_file') {
 	$file = (!empty($_REQUEST['file']) ? $_REQUEST['file'] : '');
 

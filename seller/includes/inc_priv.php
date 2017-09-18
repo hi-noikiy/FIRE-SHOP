@@ -1,5 +1,4 @@
 <?php
-//zend by 旺旺ecshop2012所有 禁止倒卖 一经发现停止任何服务
 if (!defined('IN_ECS')) {
 	exit('Hacking attempt');
 }
@@ -163,7 +162,6 @@ $purview['01_oauth_admin'] = 'oauth_admin';
 $purview['02_touch_nav_admin'] = 'touch_nav_admin';
 $purview['03_touch_ads'] = 'touch_ad';
 $purview['04_touch_ad_position'] = 'touch_ad_position';
-$purview['01_cloud_services'] = 'cloud_services';
 $purview['01_merchants_basic_info'] = 'seller_store_informa';
 $purview['08_merchants_template'] = 'seller_store_other';
 $purview['07_merchants_window'] = 'seller_store_other';

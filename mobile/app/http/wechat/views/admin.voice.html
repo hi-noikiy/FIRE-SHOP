@@ -23,7 +23,12 @@
     			<form action="{url('voice')}" method="post" enctype="multipart/form-data" id="voiceForm">
     			    <div class="form-group of">
     			     	<div class="type-file-box">
-	    			        <a href="javascript:;" class="type-file-button" style="margin-right:20px;" onClick="$('input[name=voice]').click();"></a>
+                            <a href="javascript:;" class="type-file-button" style="margin-right:20px;"
+                               onClick="$('input[name=voice]').click();">
+                                <div class="fbutton">
+                                    <div class="add" title="语音添加"><span><i class="fa fa-plus"></i>语音添加</span></div>
+                                </div>
+                            </a>
 	    			        <input type="file" name="voice" style="display: none;" onChange="$('#voiceForm').submit();" />
     			        </div>
     			    </div>

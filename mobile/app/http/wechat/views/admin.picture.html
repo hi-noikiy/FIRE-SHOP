@@ -24,7 +24,11 @@
     			<form action="{url('picture')}" method="post" enctype="multipart/form-data" id="picForm">
     			    <div class="form-group of">
     			     	<div class="type-file-box">
-	    			        <a href="javascript:;" class="type-file-button updata_pic" style="margin-right:20px;"></a>
+                            <a href="javascript:;" class="type-file-button updata_pic" style="margin-right:20px;">
+                                <div class="fbutton">
+                                    <div class="add" title="图片添加"><span><i class="fa fa-plus"></i>图片添加</span></div>
+                                </div>
+                            </a>
 	    			        <input type="file" name="pic" style="display: none;" onChange="$('#picForm').submit();" />
     			        </div>
     			    </div>

@@ -25,9 +25,6 @@ $modules['20_ectouch']['02_touch_nav_admin'] = 'touch_navigator.php?act=list';
 $modules['20_ectouch']['03_touch_ads'] = 'touch_ads.php?act=list';
 $modules['20_ectouch']['04_touch_ad_position'] = 'touch_ad_position.php?act=list';
 $modules['20_ectouch']['05_touch_dashboard'] = '../mobile/index.php?r=admin/editor';
-$modules['21_cloud']['01_cloud_services'] = 'index.php?act=cloud_services';
-$modules['21_cloud']['02_platform_recommend'] = 'index.php?act=platform_recommend';
-$modules['21_cloud']['03_best_recommend'] = 'index.php?act=best_recommend';
 $modules['02_cat_and_goods']['001_goods_setting'] = 'goods.php?act=step_up';
 $modules['02_cat_and_goods']['01_goods_list'] = 'goods.php?act=list';
 $modules['02_cat_and_goods']['03_category_manage'] = 'category.php?act=list';
@@ -142,7 +139,6 @@ $menu_top['menushopping'] = '02_cat_and_goods,03_promotion,04_order,09_crowdfund
 $menu_top['finance'] = '06_stats';
 $menu_top['third_party'] = '24_sms,25_file,26_login,27_interface';
 $menu_top['ectouch'] = '20_ectouch,22_wechat,23_drp';
-$menu_top['menuinformation'] = '21_cloud';
 $modules['20_ecjia_app']['02_ecjia_app_shortcut'] = 'ecjia_shortcut.php?act=list';
 $modules['20_ecjia_app']['03_ecjia_app_shortcut_ipad'] = 'ecjia_shortcut_ipad.php?act=list';
 $modules['20_ecjia_app']['04_ecjia_app_cycleimage'] = 'ecjia_cycleimage.php?act=list';

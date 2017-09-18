@@ -63,7 +63,6 @@ $modules['20_ectouch']['01_oauth_admin'] = '../mobile/index.php?r=oauth/admin';
 $modules['20_ectouch']['02_touch_nav_admin'] = 'touch_navigator.php?act=list';
 $modules['20_ectouch']['03_touch_ads'] = 'touch_ads.php?act=list';
 $modules['20_ectouch']['04_touch_ad_position'] = 'touch_ad_position.php?act=list';
-$modules['21_cloud']['01_cloud_services'] = 'index.php?act=cloud_services';
 $modules['02_cat_and_goods']['01_goods_list'] = 'goods.php?act=list';
 $modules['02_cat_and_goods']['05_comment_manage'] = 'comment_manage.php?act=list';
 $modules['02_cat_and_goods']['06_goods_brand_list'] = 'brand.php?act=list';

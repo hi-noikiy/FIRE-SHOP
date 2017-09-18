@@ -1,5 +1,4 @@
 <?php
-//zend by 旺旺ecshop2012所有 禁止倒卖 一经发现停止任何服务
 $_LANG['seller_rank'] = '等级';
 $_LANG['im_service'] = 'IM客服';
 $_LANG['view_deposit'] = '查看账目明细';
@@ -189,8 +188,6 @@ $_LANG['order_back_apply'] = '退换货申请列表';
 $_LANG['order_print'] = '订单打印';
 $_LANG['shipping_date_list'] = '指定配送时间';
 $_LANG['create_seller_grade'] = '店铺评分';
-$_LANG['cloud'] = '云服务中心';
-$_LANG['cloud_services'] = '资源专区';
 $_LANG['admin_manage'] = '管理员添加/编辑';
 $_LANG['seller_manage'] = '店铺管理员添加/编辑';
 $_LANG['seller_allot'] = '店铺权限分配';
